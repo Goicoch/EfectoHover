@@ -1,0 +1,22 @@
+*{
+    background-color: black;
+}
+
+
+#poster{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    transition: box-shadow .1s, transformation;
+    background: url(https://cdn.atomix.vg/wp-content/uploads/2020/07/goku-scream.jpg ) no-repeat center ;
+    background-size: cover;
+}
+
+#poster:hover{
+box-shadow: 0 0 50px rgba(0, 0 , 0, 1);
+}
